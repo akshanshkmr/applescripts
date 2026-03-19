@@ -6,7 +6,7 @@ property ERROR_TITLE : "Login error"
 property SIGNIN_KEYWORD : "Sign In"
 property VPN_APP : "Cisco Secure Client"
 property RDP_APP : "Jump Desktop"
-property PC_NAME : "goldenchinar"
+property PC_NAME : "frisby"
 
 -- Timeout for login (in seconds)
 property MAX_WAIT : 180
