@@ -19,7 +19,7 @@ Connects to VPN and opens an RDP session.
 1. Opens Cisco Secure Client
 2. If already connected (Disconnect button present) → skips to step 4
 3. If not connected → clicks Connect, then waits up to 3 minutes for Safari web auth to complete
-4. Opens Jump Desktop and connects to `goldenchinar` via the dock menu
+4. Opens Jump Desktop and connects to `thunderbird` via the dock menu
 5. Closes the Jump Desktop Computers window
 
 **Run:**
@@ -30,7 +30,7 @@ osascript login.scpt
 **Configuration** (top of file):
 | Property | Default | Description |
 |---|---|---|
-| `PC_NAME` | `goldenchinar` | Name of the RDP connection in Jump Desktop |
+| `PC_NAME` | `thunderbird` | Name of the RDP connection in Jump Desktop |
 | `MAX_WAIT` | `180` | Seconds to wait for VPN web auth |
 
 ---

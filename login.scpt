@@ -6,7 +6,7 @@ property ERROR_TITLE : "Login error"
 property SIGNIN_KEYWORD : "Sign In"
 property VPN_APP : "Cisco Secure Client"
 property RDP_APP : "Jump Desktop"
-property PC_NAME : "frisby"
+property PC_NAME : "thunderbird"
 
 -- Timeout for login (in seconds)
 property MAX_WAIT : 180
@@ -76,7 +76,7 @@ end waitForSafariAuth
 on openRDPSession()
 	tell application RDP_APP to activate
 
-	-- Click goldenchinar directly from Jump Desktop dock menu
+	-- Click thunderbird directly from Jump Desktop dock menu
 	tell application "System Events"
 		tell process "Dock"
 			repeat with d in UI elements of list 1
